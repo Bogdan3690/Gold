@@ -5,11 +5,6 @@
     --secondary-color: #FFFFFF;
 }
 
-.logo{
-    color: var(--main-color);
-    text-align: center;
-font-family: "Bilbo Swash Caps";
-}
 
 body{
     font-family: Montserrat;
@@ -17,11 +12,90 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: 41px;
-    text-transform: uppercase;
 }
 
-.nav-list{
+.logo{
+    color: var(--main-color);
+    text-align: center;
+font-family: "Bilbo Swash Caps";
+}
+
+.nav-list, .nav-link{
     text-decoration: none;
     list-style: none;
     color: var(--main-color);
+    text-transform: uppercase;
+}
+/* Serv */
+.serv{
+    color: var(--title-color);
+text-transform: uppercase;
+text-align: center;
+font-size: 40px;
+font-weight: 700;
+line-height: 75px;
+}
+
+.serv-img{
+    list-style: none;
+}
+
+.serv-text{
+    color: var(--primary-text-color);
+}
+
+/* Footer */
+footer, .form{
+    background-color: var(--title-color);
+    text-transform: uppercase;
+}
+
+.contact{
+    color: var(--secondary-color);
+    text-align: center;
+font-size: 40px;
+font-weight: 700;
+}
+
+.form-button{
+    color: var(--secondary-color);
+    background-color: var(--main-color);
+    text-align: center;
+font-size: 18px;
+font-weight: 700;
+}
+
+.form-name{
+    color: var(--primary-text-color);
+font-weight: 700;
+letter-spacing: -0.35px;
+width: 455px;
+height: 50px;
+flex-shrink: 0;
+}
+
+.form-e-mail{
+    color: var(--primary-text-color);
+font-weight: 700;
+letter-spacing: -0.35px;
+width: 457px;
+height: 53px;
+flex-shrink: 0;
+}
+
+.form-subject{
+    color: var(--primary-text-color);
+font-weight: 700;
+letter-spacing: -0.35px;
+width: 457px;
+height: 53px;
+flex-shrink: 0;
+}
+
+.form-message{
+font-weight: 700;
+letter-spacing: -0.35px;
+width: 458px;
+height: 212px;
+flex-shrink: 0;
 }
