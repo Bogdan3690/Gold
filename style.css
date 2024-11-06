@@ -27,6 +27,12 @@ font-family: "Bilbo Swash Caps";
     text-transform: uppercase;
 }
 /* Serv */
+
+.services{
+    padding-top: 91px;
+    padding-bottom: 119px;
+}
+
 .serv{
     color: var(--title-color);
 text-transform: uppercase;
@@ -42,6 +48,15 @@ line-height: 75px;
 
 .serv-text{
     color: var(--primary-text-color);
+}
+
+.container{
+    width: 1430px;
+}
+
+footer{
+    padding-top: 92px;
+    padding-bottom: 115px;
 }
 
 /* Footer */
