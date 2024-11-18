@@ -14,10 +14,27 @@ body{
     line-height: 41px;
 }
 
+.container{
+    width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    outline: red 2px solid;
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 237px;
+    padding-right: 237px;
+}
+
 .logo{
     color: var(--main-color);
     text-align: center;
 font-family: "Bilbo Swash Caps";
+display: flex;
 }
 
 .nav-list, .nav-link{
@@ -25,6 +42,9 @@ font-family: "Bilbo Swash Caps";
     list-style: none;
     color: var(--main-color);
     text-transform: uppercase;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 /* Serv */
 
@@ -42,16 +62,21 @@ font-weight: 700;
 line-height: 75px;
 }
 
+.serv-list{
+    display: flex;
+    text-align: center;
+    letter-spacing: -0.35px;
+    font-size: 14px;
+    line-height: normal;
+    gap: 5px;
+}
+
 .serv-img{
     list-style: none;
 }
 
 .serv-text{
     color: var(--primary-text-color);
-}
-
-.container{
-    width: 1430px;
 }
 
 footer{
@@ -72,14 +97,27 @@ font-size: 40px;
 font-weight: 700;
 }
 
+/* Form */
+.first-form{
+    display: flex;
+    margin-bottom: 28px;
+}
+
+.second-form{
+    display: flex;
+}
+
 .form-button{
     color: var(--secondary-color);
     background-color: var(--main-color);
-    text-align: center;
 font-size: 18px;
 font-weight: 700;
 }
-
+/*  */
+button, .form-button{
+    margin-left: 631px;
+}
+/*  */
 .form-name{
     color: var(--primary-text-color);
 font-weight: 700;
