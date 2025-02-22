@@ -111,12 +111,25 @@ font-weight: 700;
     background-color: var(--main-color);
 font-size: 18px;
 font-weight: 700;
+color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+width: 242px;
+height: 68px;
+flex-shrink: 0;
 }
+
 /*  */
 button, .form-button{
     margin-left: 631px;
 }
 /*  */
+
 .form-name{
     color: var(--primary-text-color);
 font-weight: 700;
