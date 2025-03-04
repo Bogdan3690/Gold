@@ -5,13 +5,17 @@
     --secondary-color: #FFFFFF;
 }
 
-
 body{
     font-family: Montserrat;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 41px;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
 }
 
 .container{
@@ -101,9 +105,8 @@ font-weight: 700;
 /* Form */
 .first-form{
     display: flex;
-    margin-bottom: 28px;
     flex-direction: column;
-    gap: 28px;
+    color: var(--secondary-color);
 }
 
 .form-button{
@@ -124,28 +127,20 @@ height: 68px;
 flex-shrink: 0;
 }
 
-/*  */
 button, .form-button{
     margin-left: 631px;
 }
-/*  */
 
-.form-name{
-    color: var(--primary-text-color);
-font-weight: 700;
-letter-spacing: -0.35px;
-width: 455px;
-height: 50px;
-flex-shrink: 0;
+/* FORM */
+
+.form-list{
 }
 
-.form-e-mail{
-    color: var(--primary-text-color);
-font-weight: 700;
-letter-spacing: -0.35px;
-width: 457px;
-height: 53px;
-flex-shrink: 0;
+.form-list .item{
+}
+
+.form .item:not(:last-child){
+    margin-bottom: 28px;
 }
 
 .form-subject{
@@ -155,6 +150,15 @@ letter-spacing: -0.35px;
 width: 457px;
 height: 53px;
 flex-shrink: 0;
+
+color: #BBB;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.35px;
+text-transform: uppercase;
 }
 
 .form-message{
@@ -163,8 +167,22 @@ letter-spacing: -0.35px;
 width: 458px;
 height: 212px;
 flex-shrink: 0;
+resize: none;
+outline: none;
+padding: 12px 16px;
 }
 
+.form-message::placeholder{
+    width: 150px;
+    color: #BBB;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.35px;
+text-transform: uppercase;
+}
 
 .form-wraper{
     display: flex;
